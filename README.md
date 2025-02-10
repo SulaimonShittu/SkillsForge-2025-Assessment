@@ -25,9 +25,9 @@ length of the string is not reduced, return the original string.
 
 Test Cases.
 ---
-section_one.StringCompress("bbcceeee") == ‘b2c2e4’
-section_one.StringCompress("aaabbbcccaaa") == ‘a3b3c3a3’
-section_one.StringCompress("a") = a
+- section_one.StringCompress("bbcceeee") == ‘b2c2e4’
+- section_one.StringCompress("aaabbbcccaaa") == ‘a3b3c3a3’
+- section_one.StringCompress("a") = a
 
 **Solution** : In file string-compression.go - Function StringCompress 
 <img width="960" alt="s1" src="https://github.com/user-attachments/assets/637023d1-5ef9-41ce-ae5b-92ea6b9fec46" />
@@ -39,7 +39,7 @@ repeat, return -1.
 
 Test Cases.
 ---
-section_one.FirstNonRepeating("swiss") == 'w'
+- section_one.FirstNonRepeating("swiss") == 'w'
 
 **Solution** : In file non-repeating-char.go - Function FirstNonRepeating
 <img width="960" alt="s2" src="https://github.com/user-attachments/assets/a2c94da8-dd5a-49dc-8ba0-8f1794f3ccac" />
