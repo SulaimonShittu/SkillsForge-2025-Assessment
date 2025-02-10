@@ -4,6 +4,9 @@ Track: Backend Development
 
 ### File Structure
 
+├── section-one/ │ ├── non-repeating-char.go │ └── string-compression.go ├── task-management/
+│ ├── endpoints.go │ ├── helper.go │ └── task.go ├── go.mode ├── main.go └── README.md
+
 ├── section-one/
 │   ├── non-repeating-char.go
 │   └── string-compression.go
@@ -29,7 +32,8 @@ section_one.StringCompress("aaabbbcccaaa") == ‘a3b3c3a3’
 section_one.StringCompress("a") = a
 
 **Solution** : In file string-compression.go - Function StringCompress 
-![s1.png](../../Pictures/s1.png)
+<img width="960" alt="s1" src="https://github.com/user-attachments/assets/637023d1-5ef9-41ce-ae5b-92ea6b9fec46" />
+
 
 **Question Two**
 Given a string, write a function to find the first non-repeating character. If all characters
@@ -40,7 +44,8 @@ Test Cases.
 section_one.FirstNonRepeating("swiss") == 'w'
 
 **Solution** : In file non-repeating-char.go - Function FirstNonRepeating
-![s2.png](../../Pictures/s2.png)
+<img width="960" alt="s2" src="https://github.com/user-attachments/assets/a2c94da8-dd5a-49dc-8ba0-8f1794f3ccac" />
+
 
 
 ## Section Two (Task Management API)
