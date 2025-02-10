@@ -4,19 +4,17 @@ Track: Backend Development
 
 ### File Structure
 
-├── section-one/ │ ├── non-repeating-char.go │ └── string-compression.go ├── task-management/
-│ ├── endpoints.go │ ├── helper.go │ └── task.go ├── go.mode ├── main.go └── README.md
 
-├── section-one/
-│   ├── non-repeating-char.go
-│   └── string-compression.go
-├── task-management/      
-│   ├── endpoints.go 
-│   ├── helper.go
-│   └── task.go
-├── go.mode
-├── main.go
-└── README.md
+| -- section-one/
+|   |-- non-repeating-char.go
+|   └-- string-compression.go
+| -- task-management/      
+│   | -- endpoints.go 
+│   | -- helper.go
+│   └ -- task.go
+| -- go.mode
+| -- main.go
+└ -- README.md
 
 
 ## Section one
