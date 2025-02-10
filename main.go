@@ -1,5 +1,7 @@
 package main
 
+// entry point
+
 import (
 	"log"
 	"net/http"
