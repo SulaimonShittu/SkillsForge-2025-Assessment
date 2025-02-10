@@ -6,5 +6,9 @@ import (
 )
 
 func main() {
-	fmt.Println(section_one.StringCompress("bbccieeeekkhha"))
+	//fmt.Println(section_one.StringCompress("bbcceeee"))
+	//fmt.Println(section_one.StringCompress("aaabbbcccaaa"))
+	//fmt.Println(section_one.StringCompress("a"))
+
+	fmt.Println(section_one.FirstNonRepeating("swiss"))
 }
