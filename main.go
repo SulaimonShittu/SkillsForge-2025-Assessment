@@ -3,6 +3,8 @@ package main
 // entry point
 
 import (
+	section_one "SkillsForge-2025-Assessment/section-one"
+	"fmt"
 	"log"
 	"net/http"
 
@@ -10,6 +12,15 @@ import (
 )
 
 func main() {
+	// Question 1 - section one
+	fmt.Println(section_one.StringCompress("bbcceeee"))
+	fmt.Println(section_one.StringCompress("aaabbbcccaaa"))
+	fmt.Println(section_one.StringCompress("a"))
+
+	// Question 2 - section two
+	fmt.Println(section_one.FirstNonRepeating("swiss"))
+
+	// Task management API
 	store := task_management.NewTaskStore()
 	server := &task_management.Server{Store: store}
 
@@ -37,6 +48,8 @@ func main() {
 			http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		}
 	})
+
+	fmt.Println("Web service now available on base url : http://localhost:8080/tasks")
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }

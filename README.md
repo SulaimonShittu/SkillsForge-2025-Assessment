@@ -2,6 +2,15 @@
 SkillsForge Technical assessment for 2025 Internship role
 Track: Backend Development
 
+## Requirements
+- Go Version 1.23.3 installed
+- Git installed
+- A text editor/ Ide
+
+## Steps to run
+- Clone the repository, using "git clone https://github.com/SulaimonShittu/SkillsForge-2025-Assessment.git"
+- Run the project, using "go run SkillsForge-2025-Assessment"
+
 ## Section one
 
 **Question One**
